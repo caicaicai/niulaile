@@ -1334,3 +1334,177 @@ header h1
 		animation:cd-bounce-2 .6s
 	}
 }
+
+.countTitle,.count_down{float:left;}
+
+.countTitle{width:19%}
+
+.count_down{width:50%}
+
+#COUNT_DOWN{
+
+    position: absolute;
+
+    z-index:999;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+
+
+    background:#000;
+
+    height:36px;
+
+}
+
+.count_down{margin-top:0px;}
+
+.countTitle {
+
+    display: inline-block;
+
+    /*padding: 0px 10px;*/
+
+    margin:6px 5px;
+
+    height: 24px;
+
+    line-height: 24px;
+
+background-color: #ff6a00;
+
+font-size: 12px;
+
+color: #fff;
+
+border-radius: 5px;
+
+letter-spacing: 1px;
+
+}
+
+.redCountdownWrapper > div {height:30px !important;width:30px !important;margin:2px 6px !important}
+
+.danmu_control{margin-right:5px;}
+.gz_img_s{width:240px;height:240px;border:1px solid #ccc;position:fixed;z-index:1100;margin-left:20%;display:none;}
+.gz_img_s div{position:fixed;width:30px;height:30px;z-index:1101;background:#f8f8f8;font-size:28px;line-height:30px;text-align:center;}
+.gz_img_s img{width:100%;height:100%;}
+
+#comment2 .comment {
+    width: 100%;
+
+    padding: 4px 13px;
+
+    border-bottom: 1px solid #E1E5E8;
+
+    text-align: center;
+
+    float:left;
+
+}
+
+#comment2 .comment .cmt-ava2 {
+
+    float: left;
+
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 30px;
+
+}
+
+#comment2 .comment .cmt-info2 {
+
+    position: relative;
+
+    margin-left: 42px;
+
+    font-size: 12px;
+
+    text-align: left;
+
+}
+
+#comment2 .comment .cmt-info2 .cmt-user2 {
+
+    position: absolute;
+
+    display: inline-block;
+
+    width: 100%;
+
+    height: 20px;
+
+    line-height: 20px;
+
+    padding-right: 115px;
+
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    color: #111;
+
+}
+
+#comment2 .comment .cmt-info2 .cmt-time2 {
+
+    float: right;
+
+    min-width: 115px;
+
+    line-height: 20px;
+
+    font-size: 10px;
+
+
+
+    text-align: right;
+
+    color: #bebebe;
+
+}
+
+#comment2 .comment .cmt-content2 {
+
+    margin-top: 20px;
+
+    margin-left: 42px;
+
+    font-size: 12px;
+
+    line-height: 1.3;
+
+    color: #787878;
+
+    text-align: left;
+
+    word-wrap: break-word;
+
+}
+
+#comment2 li{
+
+    box-sizing: border-box;
+
+    font-family: Microsoft YaHei;
+
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.ewm{position:fixed;/*margin-left: -130px;*/width: 100%;height: 100%;top: 0;display:none;border-radius:0;z-index:999999;background: rgba(0, 0, 0, 0.3);}
+.ewm_1{width:65%;height:49px;border-bottom:1px solid #ccc;background: #fff;margin: 0 auto;margin-top: 36%;border-radius: 8px 8px 0 0; }
+.ewm_1 p{height:40px;line-height:40px;text-align: center;margin:0px 0px auto auto;font-size:22px;}
+.ewm_2{width:65%;height:260px;z-index:999999;background: #fff;margin: 0 auto;border-radius: 0 0 8px 8px;}
+.gz_us{height:20px;line-height:20px;width:100%;text-align: center;font-size:14px;}
+.gb_box{width:25px;height:25px;right:8px;position:relative;top:8px;background:#000;float: right;}
+.wx_img{width:100%;/*padding:5px 20px 5px 20px;*/height:220px;margin: 0 auto;display: block;}
